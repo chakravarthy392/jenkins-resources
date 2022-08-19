@@ -10,7 +10,7 @@ pipeline {
     stage('stage-3') {
       steps {
         echo 'stage-3'
-        sh 'test.sh'
+        sh './pipeline/test.sh'
       }
     }
 
